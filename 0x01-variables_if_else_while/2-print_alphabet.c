@@ -1,15 +1,18 @@
 #include <stdio.h>
 /**
-  * main - enrty point
+  * main - prints alphabets in lowercase
   * Return: 0 when succesful
   */
 
 int main(void)
 {
-	int i;
-	for (i = 0; i <= 25; i++)
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		putchar('a' + i);
+		putchar(c);
+		putchar('\n');
+		c += 1;
 	}
 	return (0);
 }
