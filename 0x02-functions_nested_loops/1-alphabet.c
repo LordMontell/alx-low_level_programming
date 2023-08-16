@@ -1,10 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 /**
-  * main - call a function
+  * main - call a print_alphabet() function
+  * Return: 0 when succesful
   */
-
-void print_alphabet(void);
 
 int main(void)
 {
@@ -21,7 +19,8 @@ void print_alphabet(void)
 
 	while (c <= 'z')
 	{
-		putchar(c);
+		_putchar(c);
 		c += 1;
 	}
+	_putchar('\n');
 }
