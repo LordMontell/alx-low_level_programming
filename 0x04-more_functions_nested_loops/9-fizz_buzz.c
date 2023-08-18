@@ -2,17 +2,10 @@
 #include "main.h"
 /**
   * main - call fizzbuzz program
-  * fizzbuzz - fizzbuzz program
   * Return: 0 when succesful
   */
 
 int main(void)
-{
-	fizzbuzz();
-	return (0);
-}
-
-void fizzbuzz(void)
 {
 	int i = 0;
 
@@ -36,4 +29,5 @@ void fizzbuzz(void)
 		}
 	}
 	putchar('\n');
+	return (0);
 }
