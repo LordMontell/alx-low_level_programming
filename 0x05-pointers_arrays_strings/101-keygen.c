@@ -7,5 +7,5 @@
 int main(void)
 {
 	srand(time(NULL));
-	printf("%d\n", rand());
+	return (printf("%d\n", rand()));
 }
