@@ -6,9 +6,7 @@
   * Return: concatenated string
   */
 
-char *_strcat(char *src, char *dest)
+char *_strcat(char *dest, char *src)
 {
-	char *p;
-	p = strcat(dest, src);
-	return (p);
+	return (strcat(dest, src));
 }
