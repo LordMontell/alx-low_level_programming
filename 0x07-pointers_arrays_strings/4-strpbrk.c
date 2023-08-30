@@ -1,14 +1,15 @@
 #include "main.h"
 /**
-  * _strstr - Write a function that searches a string for
+  * _strpbrk - Write a function that searches a string for
   * any of a set of bytes.
-  * @haystack: receives an addres
-  * @needle: receives an address
-  * Return: Returns a pointer to the beginning of the located substring,
+  * @s: receives an addres
+  * @accept: receives an address
+  * Return: Returns a pointer to the byte in s that matches one of the bytes in
+  * accept, or NULL if no such byte is found
   * or NULL if the substring is not found.
   */
 
-char *_strstr(char *haystack, char *needle)
+char *_strpbrk(char *s, char *accept)
 {
-	return (strpbrk(haystack, needle));
+	return (strpbrk(s, accept));
 }
